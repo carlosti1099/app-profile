@@ -1,4 +1,4 @@
-
+import React from "react";
 import { StyleSheet, Image, View, SafeAreaView, StatusBar, Text, Pressable, Linking } from 'react-native';
 
 const colorGithub = '#010409';
@@ -20,6 +20,7 @@ export default function App() {
       await Linking.openURL(urlToMyGithub);
     }
   }
+  
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor={colorGithub} barStyle="light-content" />
@@ -45,12 +46,374 @@ export default function App() {
           style={[styles.defaultText, styles.description]}>
           Engenheiro Computacional | Suporte Técnico em Ti | Front-End Developer
         </Text>
-        <Pressable onPress={handlePressGoToGithub}>
-          <View style={styles.button}>
-            <Text style={[styles.defaultText, styles.textButton]}>Open in Github</Text>
-          </View>
-        </Pressable>
       </View>
+
+      {/*  Box 1º row  */}
+      <View style={[styles.containerBox, {
+          // Try setting `flexDirection` to `"row"`.
+          flexDirection: "row"
+        }]}>
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />    
+      </View>
+      {/* Fim Box 1º row */}
+
+      {/* Box 2º row */}
+      <View style={[styles.containerBox, {
+        // Try setting `flexDirection` to `"row"`.
+        flexDirection: "row"
+        }]}>
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+         <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+      </View>
+      {/* Fim Box 2º row */}
+
+      {/* Box 3º Row */}
+      <View style={[styles.containerBox, {
+        // Try setting `flexDirection` to `"row"`.
+        flexDirection: "row"
+        }]}>
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+         <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+      </View>
+      {/* Fim Box 3º row */}
+
+      {/* Box 4º Row */}
+      <View style={[styles.containerBox, {
+        // Try setting `flexDirection` to `"row"`.
+        flexDirection: "row"
+        }]}>
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+         <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+      </View>
+      {/* Fim Box 4º row */}
+
+      {/* Box 5º Row */}
+      <View style={[styles.containerBox, {
+        // Try setting `flexDirection` to `"row"`.
+        flexDirection: "row"
+        }]}>
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#E4105D" },
+          ]}
+        />
+         <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+      </View>
+      {/* Fim Box 5º row */}
+
+      {/* Box 6º Row */}
+      <View style={[styles.containerBox, {
+        // Try setting `flexDirection` to `"row"`.
+        flexDirection: "row"
+        }]}>
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+         <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+        <View style={[styles.box,
+          { backgroundColor: "#0000CD" },
+          ]}
+        />
+      </View>
+      {/* Fim Box 6º row */}
+
+      {/* Botton */}
+      <Pressable onPress={handlePressGoToGithub}>
+        <View style={styles.button}>
+          <Text style={[styles.defaultText, styles.textButton]}>Open in Github</Text>
+        </View>
+      </Pressable>
     </SafeAreaView>
   );
 }
@@ -62,7 +425,6 @@ const styles = StyleSheet.create({
     flex: 1, //expandi para a tela inteira
     justifyContent: 'center',
     alignItems: 'center',
-    // flexDirection: 'row',
   },
   contente: {
     alignItems: 'center',
@@ -100,6 +462,22 @@ const styles = StyleSheet.create({
   textButton: {
     fontWeight: 'bold',
     fontSize: 16,
-  }
-  
+  },
+
+  // box
+  containerBox: {
+    padding: 2,
+
+  },
+  box: {
+    width: 14,
+    height: 14,
+    borderRadius: 10,
+  },
+  row: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+  }, 
+  // fim box
+
 });
